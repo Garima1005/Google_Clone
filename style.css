@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 740px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .header .left{
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    padding: 20px 70px;
+
+}
+.container .header .right{
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 18px;
+    padding: 20px 70px;
+}
+.left span{
+    margin: 20px;
+}
+
+.right span{
+    margin: 10px;
+}
+.right span .fa{
+    font-size: 25px;
+}
+.main{
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.main h1{
+    font-size: 90px;
+}
+.main h1 .b{
+    color: #5f7cee;
+}
+.main h1 .r{
+    color: #ca4b41;
+}
+.main h1 .y{
+    color: #e5bf0e;
+}
+.main h1 .g{
+    color: #6aa854;
+}
+
+.search{
+    height: 30px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius:50px;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+.search .left{
+    float: left;
+}
+.search .right{
+    float: right;
+}
+.last{
+    margin: 10px auto;
+}
+.last button{
+    margin: 5px;
+    padding: 8px 15px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
